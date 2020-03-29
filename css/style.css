@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .banner__logo {
+    cursor: pointer;
+    margin-left: 10px; }
+  .banner__slogan {
+    cursor: pointer;
+    margin-right: 150px; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.5px solid;
+  border-bottom: 0.2px solid;
+  padding: 15px 0;
+  margin-bottom: 10px; }
+  .nav .nav__links {
+    list-style: none; }
+    .nav .nav__links li {
+      display: inline-block;
+      padding: 5px 8px; }
+      .nav .nav__links li a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 800px; }
+      .nav .nav__links li:hover {
+        border-bottom: 3px solid red; }
+
+.slider {
+  margin: 20px 10px 100px 10px; }
+
+.about-us {
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 30px; }
+  .about-us__caption {
+    line-height: 30px; }
+
+.courses__title {
+  text-align: center; }
+.courses__list-cards {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+.courses__list-card {
+  margin: 10px; }
+  .courses__list-card img {
+    margin-bottom: 20px; }
+  .courses__list-card a {
+    text-decoration: none; }
+    .courses__list-card a:hover {
+      text-decoration: underline; }
+
+.news__title {
+  text-align: center; }
+.news__imgs {
+  display: flex;
+  justify-content: center; }
+.news__img {
+  border-bottom: 4px solid red; }
+  .news__img img {
+    width: 280px;
+    height: 184px; }
+  .news__img-row {
+    margin: 10px; }
+
+.news__img--huge {
+  border-bottom: 4px solid red;
+  margin: 10px; }
+
+.news__imgs .news__img--huge {
+  position: relative; }
+
+.news__imgs .news__img--huge .caption-hot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 40px;
+  padding-bottom: 14px;
+  opacity: 0; }
+
+.news__imgs .news__img--huge .caption-hot a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px; }
+
+.news__imgs .news__img--huge img:hover ~ .caption-hot {
+  transition: 0.4s;
+  opacity: 1;
+  bottom: 0; }
+
+.news__img-row .news__img {
+  position: relative; }
+
+.news__img-row .news__img .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  opacity: 0;
+  background: #27252585; }
+
+.news__img-row .news__img .caption a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none; }
+
+.news__img-row .news__img img:hover ~ .caption {
+  opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */

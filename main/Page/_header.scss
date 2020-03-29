@@ -1,0 +1,48 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    &__logo {
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    &__slogan {
+        cursor: pointer;
+        margin-right:150px;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid;
+    border-bottom: 0.2px solid;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    .nav__links { 
+        list-style: none;
+        
+        li {
+            display: inline-block;
+            padding: 5px 8px;
+            a {
+                color: #000;
+                text-decoration: none;
+                font-weight: 800px;
+            }
+            &:hover {
+                border-bottom: 3px solid red;
+            }
+        }
+        &--active {
+            
+            
+        }
+    }
+}
+
+.slider {
+    margin: 20px 10px 100px 10px;
+}
+
